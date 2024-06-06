@@ -1,0 +1,35 @@
+import React from 'react';
+import Cv from './Cv'; // Importez votre composant Cv ici
+import './App.css'; // Assurez-vous d'importer votre fichier CSS
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src="logo.svg" className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+      <div className="App-content">
+        <Cv /> {/* Ajoutez votre composant Cv ici */}
+        <form className="App-form">
+          {/* Ajoutez votre formulaire ici */}
+          <input type="text" placeholder="Nom" />
+          <input type="email" placeholder="Email" />
+          <button type="submit">Soumettre</button>
+        </form>
+      </div>
+    </div>
+  );
+}
+
+export default App;

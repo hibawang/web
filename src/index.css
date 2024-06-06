@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Espace supplémentaire entre les boutons et le contenu suivant */
+}
+
+.header-button {
+  margin: 0 10px; /* Espacement entre les boutons */
+  padding: 10px 20px; /* Rembourrage des boutons */
+}
+/* Dans votre fichier CSS ou SCSS */
+
+.video-container {
+  margin: 40px; /* Augmentez cette valeur selon vos besoins */
+}
+
